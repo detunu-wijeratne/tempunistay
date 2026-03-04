@@ -1,0 +1,6 @@
+/* Meal menu grid */
+.menu-item-card { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.menu-item-card:hover { transform: translateY(-4px); box-shadow: 0 16px 32px -8px rgba(0,0,0,0.15); }
+.menu-item-card img { transition: transform 0.4s ease; }
+.menu-item-card:hover img { transform: scale(1.05); }
+.stock-bar { transition: width 0.6s ease; }

@@ -1,0 +1,4 @@
+/* Meal sales */
+.bar-col { transition: height 0.4s ease; }
+.bar-col:hover > .bar-fill { opacity: 0.85; }
+.progress-bar { transition: width 0.6s ease; }

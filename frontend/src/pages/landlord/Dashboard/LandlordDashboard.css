@@ -1,0 +1,5 @@
+/* Landlord dashboard */
+.stat-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.stat-card:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -8px rgba(0,0,0,0.12); }
+.alert-item { transition: transform 0.15s ease; border-left: 4px solid transparent; }
+.alert-item:hover { transform: translateX(4px); }

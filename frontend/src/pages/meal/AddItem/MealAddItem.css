@@ -1,0 +1,5 @@
+/* Add meal item */
+.form-card { animation: fadeInUp 0.3s ease both; }
+.tag-toggle { transition: all 0.15s ease; }
+.tag-toggle.active { transform: translateY(-1px); }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }

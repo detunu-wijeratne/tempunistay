@@ -1,0 +1,23 @@
+/* Facility requests */
+.request-row { transition: background 0.15s ease; }
+.request-row:hover { background: rgba(255,255,255,0.5); }
+.request-row.high { background: rgba(239,68,68,0.04); }
+
+/* Slide-in drawer */
+.detail-drawer {
+  animation: slideFromRight 0.3s ease both;
+}
+
+@keyframes slideFromRight {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+
+.drawer-overlay {
+  animation: fadeIn 0.2s ease both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

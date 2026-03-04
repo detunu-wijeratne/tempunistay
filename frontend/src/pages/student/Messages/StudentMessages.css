@@ -1,0 +1,27 @@
+/* Messages — chat bubbles */
+.chat-bubble-sent {
+  animation: slideInRight 0.2s ease both;
+}
+
+.chat-bubble-received {
+  animation: slideInLeft 0.2s ease both;
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(12px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-12px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.conversation-item {
+  transition: background 0.15s ease;
+}
+
+.conversation-item:hover,
+.conversation-item.active {
+  background: rgba(255,255,255,0.8);
+}

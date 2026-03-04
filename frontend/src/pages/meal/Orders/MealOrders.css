@@ -1,0 +1,6 @@
+/* Meal orders */
+.order-row { transition: background 0.15s ease; }
+.order-row.pending { background: rgba(253,224,71,0.1); }
+.order-row.ready { border-left: 4px solid #22c55e; }
+.kitchen-btn { transition: transform 0.1s ease; }
+.kitchen-btn:active { transform: scale(0.95); }

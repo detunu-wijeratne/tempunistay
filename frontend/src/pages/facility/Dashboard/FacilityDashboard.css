@@ -1,0 +1,6 @@
+/* Facility dashboard */
+.stat-card { transition: transform 0.2s ease; }
+.stat-card:hover { transform: translateY(-3px); }
+.urgent-card { border: 1px solid #fca5a5; }
+.alert-strip { border-left: 4px solid; transition: transform 0.15s ease; }
+.alert-strip:hover { transform: translateX(4px); }

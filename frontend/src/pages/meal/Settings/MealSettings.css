@@ -1,0 +1,5 @@
+/* Meal provider settings */
+.settings-panel { animation: fadeIn 0.3s ease both; }
+.hours-card { transition: border-color 0.2s ease, background 0.2s ease; }
+.hours-card.enabled { border-color: rgba(234,88,12,0.3); }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }

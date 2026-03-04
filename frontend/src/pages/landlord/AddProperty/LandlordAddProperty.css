@@ -1,0 +1,11 @@
+/* Add property form */
+.form-section { animation: fadeInUp 0.3s ease both; }
+.amenity-checkbox { transition: all 0.15s ease; }
+.amenity-checkbox:hover { transform: translateY(-2px); }
+.amenity-checkbox.checked { transform: translateY(-2px); }
+.image-upload-zone { transition: border-color 0.2s ease, background 0.2s ease; }
+.image-upload-zone:hover { border-color: #6366f1; background: rgba(99,102,241,0.04); }
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

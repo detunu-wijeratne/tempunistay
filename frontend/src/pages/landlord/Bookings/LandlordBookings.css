@@ -1,0 +1,6 @@
+/* Landlord bookings */
+.booking-row { transition: background 0.15s ease; }
+.booking-row:hover { background: rgba(255,255,255,0.6); }
+.booking-row.pending { border-left: 3px solid #f59e0b; }
+.action-btn { transition: transform 0.1s ease; }
+.action-btn:active { transform: scale(0.95); }

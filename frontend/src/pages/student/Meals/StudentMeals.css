@@ -1,0 +1,16 @@
+/* Student meals */
+.meal-item {
+  transition: background 0.15s ease;
+}
+
+.meal-item:hover {
+  background: rgba(255,255,255,0.6);
+}
+
+.quantity-btn {
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.quantity-btn:active {
+  transform: scale(0.9);
+}

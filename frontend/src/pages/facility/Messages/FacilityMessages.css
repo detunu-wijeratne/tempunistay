@@ -1,0 +1,5 @@
+/* Facility messages */
+.chat-bubble-sent { animation: slideInRight 0.2s ease both; }
+.chat-bubble-received { animation: slideInLeft 0.2s ease both; }
+@keyframes slideInRight { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes slideInLeft  { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }

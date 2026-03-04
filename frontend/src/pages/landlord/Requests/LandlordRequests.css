@@ -1,0 +1,12 @@
+/* Landlord service requests */
+.request-row { transition: background 0.15s ease; }
+.request-row:hover { background: rgba(255,255,255,0.5); }
+.priority-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  display: inline-block; margin-right: 6px;
+}
+.priority-dot.urgent { background: #ef4444; animation: ping 1.5s ease-in-out infinite; }
+@keyframes ping {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.6; }
+}

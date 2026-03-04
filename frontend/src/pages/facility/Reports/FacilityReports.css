@@ -1,0 +1,5 @@
+/* Facility reports */
+.kpi-card { transition: transform 0.2s ease; }
+.kpi-card:hover { transform: translateY(-3px); }
+.bar-col { cursor: pointer; }
+.progress-bar { transition: width 0.5s ease; }

@@ -1,0 +1,5 @@
+/* Facility settings */
+.settings-panel { animation: fadeIn 0.3s ease both; }
+.staff-row { transition: background 0.15s ease; }
+.staff-row:hover { background: rgba(255,255,255,0.7); }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }

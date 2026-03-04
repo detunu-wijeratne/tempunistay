@@ -1,0 +1,19 @@
+/* Facility jobs timeline */
+.timeline-header { position: sticky; top: 0; z-index: 10; background: white; }
+
+.job-block {
+  border-radius: 6px;
+  font-size: 11px;
+  transition: opacity 0.15s ease;
+}
+
+.job-block:hover { opacity: 0.85; }
+
+.unassigned-card {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.unassigned-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px -4px rgba(0,0,0,0.12);
+}
