@@ -1,0 +1,18 @@
+/* Meals public page */
+.meal-plan-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.meal-plan-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px -12px rgba(0,0,0,0.15);
+}
+
+.popular-badge {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}

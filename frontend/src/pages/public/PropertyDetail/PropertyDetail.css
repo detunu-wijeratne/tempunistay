@@ -1,0 +1,17 @@
+/* Property detail */
+.property-gallery img {
+  transition: opacity 0.3s ease;
+}
+
+.amenity-badge {
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.amenity-badge:hover {
+  transform: translateY(-1px);
+}
+
+.booking-panel {
+  position: sticky;
+  top: 100px;
+}
