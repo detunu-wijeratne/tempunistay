@@ -1,0 +1,31 @@
+/* DashboardLayout — sidebar + main layout */
+.dashboard-sidebar {
+  transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.sidebar-nav-item {
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.sidebar-nav-item:hover {
+  transform: translateX(4px);
+}
+
+.sidebar-nav-item.active {
+  position: relative;
+}
+
+.sidebar-nav-item.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  border-radius: 0 4px 4px 0;
+  background: currentColor;
+}
+
+.dashboard-main {
+  transition: margin-left 0.3s ease;
+}
